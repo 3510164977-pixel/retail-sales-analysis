@@ -1,0 +1,13 @@
+Seasonality,Category,demand_std,rnk
+Autumn,Groceries,43.64883514499551,1
+Autumn,Toys,39.23179845745728,2
+Autumn,Electronics,38.46398339516623,3
+Spring,Toys,56.63523609715698,1
+Spring,Groceries,44.09023070174993,2
+Spring,Electronics,41.42833455988288,3
+Summer,Groceries,54.057172735270555,1
+Summer,Toys,42.79307123938932,2
+Summer,Electronics,40.24290775346091,3
+Winter,Groceries,44.81785926722791,1
+Winter,Clothing,44.65470080593372,2
+Winter,Toys,44.044941597767824,3

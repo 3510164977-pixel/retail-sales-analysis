@@ -1,0 +1,13 @@
+Region,Category,total_demand,rnk
+East,Groceries,828424,1
+East,Electronics,246200,2
+East,Toys,209942,3
+North,Groceries,1469281,1
+North,Toys,563560,2
+North,Furniture,392137,3
+South,Groceries,733162,1
+South,Clothing,410546,2
+South,Electronics,214223,3
+West,Groceries,646817,1
+West,Clothing,418459,2
+West,Furniture,391363,3

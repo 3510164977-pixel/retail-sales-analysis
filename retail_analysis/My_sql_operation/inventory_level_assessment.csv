@@ -1,0 +1,6 @@
+"Store ID",Region,avg_inventory,avg_demand,inventory_status
+S001,North,277.6574,101.8140,"Normal inventory"
+S002,South,332.0147,106.9389,"Excess inventory"
+S003,East,321.9930,106.4687,"Excess inventory"
+S004,West,293.2442,100.6349,"Normal inventory"
+S005,North,280.4049,105.7293,"Normal inventory"
