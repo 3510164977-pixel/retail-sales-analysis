@@ -15,28 +15,29 @@ mysql-connector-python
 # Installation Command
 pip install pandas matplotlib seaborn sqlalchemy mysql-connector-python
 # Project Structure
-retail_analysis/
+retail-demand-analysis/
 ├── data/                          # Raw & cleaned dataset + preprocessing code
 │   ├── demand_forecasting.csv     # Raw/cleaned product demand dataset
-│   └── demand_preprocessing.py    # Pandas data cleaning, feature engineering & preprocessing
-├── My_sql_operation/              # SQL analysis scripts & exported query results
-│   ├── categories_under_epidemic.sql  # Top category analysis under epidemic/non-epidemic
-│   ├── demand_analysis.sql        # Core multi-dimensional demand analysis SQL script
-│   ├── demand_fluctuations_each_season.sql  # Seasonal demand fluctuation analysis
-│   ├── inventory_level_assessment.sql  # Store inventory health assessment
-│   ├── monthly_growth_rate.csv    # Exported monthly demand YoY growth rate data
-│   ├── top3_categories.csv        # Top 3 demand categories by region (exported)
-│   ├── top5_demands_stores.csv    # Top 5 stores by total demand (exported)
-│   └── top5_highest_inventory.csv # Top 5 products by inventory level per store (exported)
-├── python-analysis/              # Python EDA & statistical visualization
-│   ├── eda-analysis.py            # EDA script: distribution, correlation, time series & factor analysis
-│   ├── Heat map of correlation.png  # Correlation heatmap of numerical variables
-│   ├── Influence of business factors.png  # Impact of promotion, epidemic & seasonality on demand
-│   ├── Monthly_demands.png        # Monthly total demand time series trend
-│   ├── boxplot_of_numerical_variables.png  # Boxplot for outlier detection
-│   └── distribution_of_numerical_variables.png  # Histograms of numerical variable distributions
-└── sql/                           # MySQL connection & data import
-    └── MySQL.py                   # Script to connect MySQL & import cleaned data to database                
+│   └── demand_preprocessing.py    # Pandas data cleaning & feature engineering
+├── mysql_analysis/                # SQL scripts & exported analysis results
+│   ├── categories_under_epidemic.sql        # Category performance during epidemic
+│   ├── demand_analysis.sql                  # Core multi-dimensional analysis
+│   ├── demand_fluctuations_each_season.sql  # Seasonal demand volatility
+│   ├── inventory_level_assessment.sql       # Store inventory health check
+│   ├── monthly_growth_rate.csv              # Monthly YoY growth (Tableau input)
+│   ├── top3_categories.csv                  # Top 3 categories by region
+│   ├── top5_demands_stores.csv              # Top 5 stores by total demand
+│   └── top5_highest_inventory.csv           # Top 5 products by inventory
+├── python_visualization/          # EDA scripts & visualization outputs
+│   ├── eda_analysis.py                      # Main visualization script
+│   ├── distribution_of_numerical_variables.png
+│   ├── boxplot_of_numerical_variables.png
+│   ├── Heat_map_of_correlation.png
+│   ├── Monthly_demands.png
+│   └── Influence_of_business_factors.png
+├── sql_connection/                # MySQL database connection script
+│   └── mysql_data_import.py                 # Data import to MySQL database
+└── README.md                      # Project documentation             
 # Workflow
 1. Data Preprocessing (data/demand_preprocessing.py)
 
