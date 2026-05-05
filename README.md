@@ -56,6 +56,17 @@ All visualization outputs are saved in the python-analysis/ folder.
 
 5. Tableau Interactive Visualization (MacOS Web Version)
 
+# Structure of files
+data folder: Stores dataset files, and contains demand_preprocessing.py for data cleaning and feature engineering.
+
+sql folder: Stores MySQL-related scripts, including MySQL.py for database connection and data import.
+
+My_sql_operation folder: Stores all SQL analysis scripts and corresponding analysis results.
+
+python-analysis folder: Stores Python visualization scripts and generated charts, with eda-analysis.py as the main program for exploratory data analysis.
+
+README.md: Overall introduction and documentation of the project.
+
 # Key Analysis Findings
 Summer is the peak demand season, while February records the lowest monthly demand.
 Promotions increase average demand by ~30%; the epidemic caused a significant 36% drop in overall demand.
