@@ -75,5 +75,7 @@ Demand has a strong positive correlation (0.83) with unit sales; discount and in
 Own product pricing is highly consistent with competitor pricing across all categories.
 Most merchants adopt zero or low-discount strategies in daily operations.
 
+To be more specific, groceries dominate the overall market demand and serve as the core retail product category. The epidemic greatly restrained retail consumption and led to a substantial drop in grocery sales. Consumer demand varies significantly by season, with strong demand for toys in spring and rising demand for clothing in winter. The overall retail market remained sluggish, with most months of 2023 experiencing year-on-year demand declines. Consumption preferences differ greatly across regions: the East region favors electronics, the North prefers toys and furniture, and the South and West regions show greater preference for clothing and furniture. Stores S002 and S003 record the highest overall sales. Several stores in the East and South regions have excess inventory, while other stores maintain normal inventory levels. Retail stores mainly stock groceries, clothing and electronics, and inventory allocation should be optimized according to seasonal and regional consumption differences to accurately match market demand.
+
 # License
 This project is for academic learning, business analysis practice, and portfolio use only.
